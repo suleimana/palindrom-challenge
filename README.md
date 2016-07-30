@@ -5,22 +5,22 @@ Details about the challenge : [palindromic](https://github.com/ZillionGroup/codi
 
 Solution 
 ========
-We can find the all possible palindromes of a particular string by looking up all possible permutations. However, this is a brute force solution and would cost O(N!) where n is the length of the string. 
+We can find all possible palindromes of a particular string by looking up all possible permutations. However, this is a brute force solution and would cost O(N!) where n is the length of the string. 
 
-A palindrome string must have an even number of characters and at most one odd number of characters in the centers. For example: 
+A palindrome string must have an even number of characters and at most one odd number of characters in the center. For example: 
 ```
 aabb
 aaacbbb
 ```
 
-So we get the count  of all possible palindromes by calculating all possible premutations of half of the sting with respect to the odd number.
+So, we get the count  of all possible palindromes by calculating all possible premutations of half of the sting with respect to the odd number.
 ```
-Example1 : 
+Example 1: 
 let 
 s = "ab" => the allowed set of charchters 
 k =3 => the string size
 
-Then possible palindromes is 4 :-
+Then possible palindromes is 4:
 aaa
 bbb
 aba
@@ -31,7 +31,7 @@ let
 s = "abc" => the allowed set of charchters 
 k =3 => the string size
 
-Then possible palindromes is 9 :- 
+Then possible palindromes is 9: 
 aaa
 bbb
 ccc
@@ -47,7 +47,7 @@ let
 s = "abc" => the allowed set of charchters 
 k =4 => the string size
 
-Then possible palindromes is 9 :- 
+Then possible palindromes is 9:
 aaaa
 bbbb
 cccc
@@ -61,10 +61,11 @@ cbbc
 ```
 
 
-So for a string with length K and has N number of unique characters, the count  of all possible palindromes is  N to the power of half K : 
+So, for a string with length K which has N number of unique characters, the count  of all possible palindromes is  N to the power of half K 
 
 ```
-Count = N^(K/2 +K %2)
+Count = N^(K/2 + K%2)
+
 ```
 
 
