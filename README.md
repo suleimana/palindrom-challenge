@@ -141,7 +141,7 @@ http://localhost:8080/palindromes?search=[Search String]&limit=[number from 1-5]
 ```
 
 
-Additionally, you can access service's documentation for all implemented operations thorough the following link:
+Additionally, you can access the service's documentation for all implemented operations thorough the following link:
  
 ```
 http://localhost:8080/swagger-ui.htm
