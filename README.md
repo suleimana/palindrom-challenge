@@ -5,7 +5,7 @@ Details about the challenge : [palindromic](https://github.com/ZillionGroup/codi
 
 Solution 
 ========
-We can find the all possible palindromes of a particular string by looking up all possible permutations. However,this brute force solution and would cost O(N!) where n is the length of the string. 
+We can find the all possible palindromes of a particular string by looking up all possible permutations. However, this is a brute force solution and would cost O(N!) where n is the length of the string. 
 
 A palindrome string must have an even number of characters and at most one odd number of characters in the centers. For example: 
 ```
