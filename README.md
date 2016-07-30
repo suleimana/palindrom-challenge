@@ -68,10 +68,6 @@ Count = N^(K/2 +K %2)
 ```
 
 
-
-
-
-
 Project Layout
 =============
 The project use Spring boot to the run rest service and it has the following layout: 
@@ -135,3 +131,20 @@ From Command line:
 ```
 mvn spring-boot:run
 ```
+
+
+The service runs on port 8080 so you can access the service using :  
+
+```
+http://localhost:8080/palindromes?search=[Search String]&limit=[number from 1-5]
+```
+
+
+Additionally , you can access Swagger documentation for the implemented operations thorough the following link:
+ 
+```
+http://localhost:8080/swagger-ui.htm
+
+````
+
+
