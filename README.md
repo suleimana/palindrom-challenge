@@ -120,6 +120,7 @@ PalindromeUtil.java
 Running the project
 ======================
 Before running the project, make sure you have the following installed in your machine: 
+
 *Java 1.7
 *Maven
 
